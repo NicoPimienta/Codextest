@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alma y Destino – Servicios Holísticos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="stars"></div>
+    <header class="nav">
+      <div class="container">
+        <h2 class="logo">Alma y Destino</h2>
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="content">
+        <h1 class="title">
+          Alma y Destino – Servicios Holísticos para tu Bienestar
+        </h1>
+        <p class="subtitle">
+          Tarot, carta natal, reiki y más para guiar tu camino
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80"
+          alt="Luna mística"
+          class="hero-img"
+        />
+        <a href="#contact" class="btn primary-btn">Reserva tu sesión</a>
+      </div>
+    </section>
+
+    <section id="about" class="about section reveal">
+      <div class="container">
+        <img
+          src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=400&q=80"
+          alt="Terapeuta"
+          class="avatar"
+        />
+        <div class="text">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy María, terapeuta holística con más de 10 años de experiencia. Mi
+            misión es acompañarte en tu camino de sanación y autodescubrimiento
+            a través de herramientas ancestrales y energéticas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section reveal">
+      <div class="container">
+        <h2>Servicios</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <i class="fas fa-moon"></i>
+            <h3>Tarot</h3>
+            <p>Lectura de tarot para comprender tu presente y futuro.</p>
+            <span class="price">$30</span>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-star"></i>
+            <h3>Carta Natal</h3>
+            <p>Análisis astrológico personalizado.</p>
+            <span class="price">$50</span>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>Reiki</h3>
+            <p>Sesión energética para armonizar tu cuerpo y mente.</p>
+            <span class="price">$40</span>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-pastafarianism"></i>
+            <h3>Regresiones</h3>
+            <p>Exploración de vidas pasadas para sanar el presente.</p>
+            <span class="price">$60</span>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-water"></i>
+            <h3>Limpieza Energética</h3>
+            <p>Purificación de energías negativas y bloqueos.</p>
+            <span class="price">$45</span>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-gem"></i>
+            <h3>Sanación con Cristales</h3>
+            <p>Terapia con cristales para equilibrar tus chakras.</p>
+            <span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section reveal">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <div class="testimonial-wrapper">
+          <div class="testimonial active">
+            <p>
+              "Una experiencia transformadora. María supo guiarme con amor."
+            </p>
+            <span>- Laura G.</span>
+          </div>
+          <div class="testimonial">
+            <p>"Las sesiones de reiki me devolvieron la calma interior."</p>
+            <span>- Diego S.</span>
+          </div>
+          <div class="testimonial">
+            <p>
+              "La carta natal fue reveladora, entendí muchas cosas de mi vida."
+            </p>
+            <span>- Ana P.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" />
+          </div>
+          <div class="form-group">
+            <label for="service">Servicio de interés</label>
+            <select id="service">
+              <option>Tarot</option>
+              <option>Carta Natal</option>
+              <option>Reiki</option>
+              <option>Regresiones</option>
+              <option>Limpieza Energética</option>
+              <option>Sanación con Cristales</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn submit-btn">Enviar</button>
+          <p id="form-message" class="form-message" hidden>
+            Gracias por tu consulta. Te responderé pronto.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="social">
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>Contacto: contacto@almaydestino.com</p>
+        <p>© 2024 Alma y Destino. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
